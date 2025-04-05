@@ -4,7 +4,7 @@
 A SwiftUI component demonstrating how to implement a custom "Rate Our App" prompt. It uses StoreKit for positive ratings and a `mailto:` feedback form for negative responses, presented via a clean overlay.
 
 **(Screenshot)**
-![CustomRating](https://github.com/user-attachments/assets/84fb3673-4f8d-4db5-a41a-e687b644ccd4)
+<img src="https://github.com/user-attachments/assets/84fb3673-4f8d-4db5-a41a-e687b644ccd4" alt="CustomRating" width="400">
 
 
 ## Features
