@@ -1,6 +1,4 @@
 # SwiftUI Custom Rating & Feedback Prompt
-
-**(Short Description - Reuse/expand the one we discussed)**
 A SwiftUI component demonstrating how to implement a custom "Rate Our App" prompt. It uses StoreKit for positive ratings and a `mailto:` feedback form for negative responses, presented via a clean overlay.
 
 
@@ -8,7 +6,6 @@ A SwiftUI component demonstrating how to implement a custom "Rate Our App" promp
 
 
 ## Features
-
 - Custom SwiftUI overlay view presented modally.
 - Appears automatically after the main view loads (with a slight delay).
 - Asks the user if they enjoyed the app experience.
