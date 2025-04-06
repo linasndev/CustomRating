@@ -146,7 +146,6 @@ struct OverTopView: View {
 struct FeedbackFormView: View {
   @Binding var isPresented: Bool
   @State private var feedbackText: String = ""
-  // Removed showMailView and mailResult states
   @State private var showingAlert = false
   @State private var alertMessage = ""
   
@@ -189,7 +188,6 @@ struct FeedbackFormView: View {
     .frame(width: 320)
     .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 20))
     .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 5)
-    // Removed the .sheet modifier
     .alert("Cannot Send Mail", isPresented: $showingAlert) {
       Button("OK", role: .cancel) { }
     } message: {
